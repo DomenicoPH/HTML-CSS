@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(43, 43, 43);
+    font-family:'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(64, 64, 64);
+    padding: 10px 10px;
+    color: azure;
+}
+    .headerContainer h2{
+        margin: 0;
+        font-size: 1rem;
+    }
+    .headerContainer a{
+        color: azure;
+        font-size: 1rem;
+    }
+
+
+.mainCont{
+    display: flex;
+    min-height: 96vh;
+}
+
+/*Contenedor IZQ - menú*/
+.mainContLeft{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    min-width: 12dvw;
+    border-right: 1px solid rgb(64, 64, 64); /*borde menu izq*/
+    list-style: none;
+    text-decoration: none;
+}
+    .mainContLeft ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        min-width: 100%;
+    }
+    .mainContLeft li {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 2px;
+        border-bottom: 1px solid rgb(43, 43, 43);
+        border-top: 1px solid rgb(43, 43, 43);
+    }
+    .mainContLeft li:hover{
+        border-bottom: 1px solid rgb(17, 17, 17);
+        border-top: 1px solid rgb(17, 17, 17);
+        background-color: rgb(17, 17, 17);
+    }
+    .mainContLeft li:hover a{
+        color: rgb(100, 100, 100);
+    }
+    .mainContLeft a{
+        min-width: 100%;
+    }
+
+.sectionTitle{
+    margin: 0px;
+    font-size: 1rem;
+    padding: 5px;
+    border-bottom: 1px solid rgb(64, 64, 64);
+    border-top: 1px solid rgb(64, 64, 64);
+    color: rgb(94, 94, 94);
+}
+.sectionTitleTop{
+    border-top: none;
+}
+
+
+/*Contenedor DER - contenido*/
+.title{
+    color: rgb(194, 194, 194);
+    text-align: center;
+}
+.dogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dogpic{
+    width: 700px;
+    border: 1px solid rgb(43, 43, 43);
+    opacity: 5%;
+}
+.dogpic:hover{
+    border: 1px solid yellowgreen;
+    opacity: 100%;
+}
