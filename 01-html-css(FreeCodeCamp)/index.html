@@ -12,7 +12,10 @@
     <main>
         <!-- Este es el header -->
         <header class="headerContainer">
-            <h2>html + css</h2>
+            <div class="logo">
+                <img src="./media/svg/dogicon.svg" alt="dog icon">
+            </div>
+            <h2>&lt;HTML5&gt;&&{CSS3}</h2>
             <nav>
                 <a href="">html</a>
                 <a href="">css</a>
@@ -25,10 +28,10 @@
             <!-- Este es el menú de la izquierda -->
             <div class="mainContLeft">
                 <div>
-                    <h2 class="sectionTitle sectionTitleTop">Documentación</h2>
+                    <h2 class="sectionTitle sectionTitleTop">Enlaces Internos</h2>
                     <ul>
-                        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">mdn web docs</a></li>
-                        <li><a href="">---</a></li>
+                        <li><a href="#gal">Galería perruna</a></li>
+                        <li><a href="#lejanos">Perritos lejanos</a></li>
                         <li><a href="">---</a></li>
                         <li><a href="">---</a></li>
                         <li><a href="">---</a></li>
@@ -36,10 +39,10 @@
                 </div>
                 
                 <div>
-                    <h2 class="sectionTitle">Section title</h2>
+                    <h2 class="sectionTitle">Enlaces Externos</h2>
                 </div>
                 <ul>
-                    <li><a href="">---</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">mdn web docs</a></li>
                     <li><a href="">---</a></li>
                     <li><a href="">---</a></li>
                     <li><a href="">---</a></li>
@@ -50,13 +53,55 @@
             <!-- Este es el contenido de la derecha -->
             <div class="mainContRight">
 
+                <div class="heroImgContainer">
+                    <img class="heroImg" src="./media/dogs.webp" alt="los perritos">
+                </div>
+
                 <div class="bloque">
-                    <h1 class="title">Los perritos</h1>
+                    
+                    <h1 class="title"><i>Los perritos</i></h1>
+                    <p class="cuento">¡Bienvenidos a un viaje intergaláctico al mundo de la creación web! Aquí, en mi página, exploraremos el arte de tejer los hilos mágicos de HTML y CSS mientras nos sumergimos en el universo de los adorables perritos espaciales. Prepárense para un festín de creatividad y ternura.</p>
+                        
+                    <p class="cuento">Imagina un cosmos donde HTML es la chispa que da vida a la estructura de nuestro universo web. Sus etiquetas son como constelaciones, dando forma a cada página y formando la base de nuestro viaje por la red.</p>
+                    
+                    <p class="cuento">Ahora, agreguemos el brillo y el estilo con CSS. Es como la paleta de colores del cosmos: la herramienta que pinta nuestras páginas con destellos, patrones y belleza estética. Desde estrellas fugaces hasta galaxias de diseño, CSS da vida a nuestras creaciones.</p>
+                    
+                    <p class="cuento">Pero eso no es todo, ¡tenemos una sorpresa celestial! A lo largo de este viaje, nos acompañarán los perritos más adorables del espacio exterior. Estos caninos cósmicos no solo nos llenarán de alegría, sino que también nos enseñarán cómo fusionar sus encantos con la magia de HTML y CSS.</p>
+                    
+                    <p class="cuento">Así que prepárense para un viaje emocionante, donde la creatividad se mezcla con la tecnología, y donde los perritos se convierten en parte integral de nuestra odisea digital por el universo de HTML y CSS. ¡Únete a esta aventura para aprender, crear y abrazar la belleza de la web, con un toque adorable y canino en cada línea de código!</p>
+
+                    <br>
+                
+                    <h2 class="subTitle">-- Traidos de internet --</h2>
                     <div class="dogs">
-                        <img class="dogpic" src="./media/dogs03.jpg" alt="">
-                        <img class="dogpic" src="./media/dogs01.jpg" alt="">
-                        <img class="dogpic" src="./media/dogs02.jpg" alt="">
-                        <img class="dogpic" src="./media/dogs04.jpg" alt="">
+                        <a href="https://es.wikipedia.org/wiki/Raza_de_perro" target="_blank" rel="noopener noreferrer">
+                            <img class="dogpic" src="https://www.elmueble.com/medio/2023/03/29/razas-de-perros_725466fb_230329160906_900x900.jpg" alt="Imagen de perros traida de internet">
+                        </a>
+                    </div>
+                    
+                    <h2 id="gal" class="subTitle">-- Traidos de mis archivos --</h2>
+                    <div class="dogs">
+                        <a href="./media/dogs03.jpg">
+                            <img class="dogpic" src="./media/dogs03.jpg" alt="imagen de perros 03 traida de mis archivos">
+                        </a>
+                        <a href="./media/dogs01.jpg">
+                            <img class="dogpic" src="./media/dogs01.jpg" alt="imagen de perros 01 traida de mis archivos">
+                        </a>
+                        <a href="./media/dogs02.jpg">
+                            <img class="dogpic" src="./media/dogs02.jpg" alt="imagen de perros 02 traida de mis archivos">
+                        </a>
+                        <a href="./media/dogs04.jpg">
+                            <img class="dogpic" src="./media/dogs04.jpg" alt="imagen de perros 04 traida de mis archivos">
+                        </a>
+                    </div>
+
+                    <div class="cuento">
+                    <h2 id="lejanos" class="subTitle">Los perritos lejanos</h2>
+                        <p>En un remoto sistema solar, en el planeta Canix, una especie de perros inteligentes y curiosos habitaba un mundo lleno de maravillas cósmicas. Estos canes galácticos, con pelajes luminosos y ojos estrellados, vivían en armonía entre lunas y nebulosas.</p>
+                        <p>La comunidad canina exploraba el universo, ansiosa por descubrir nuevos rincones de su hogar planetario. Entre ellos, un perro llamado Cosmo, un explorador incansable, anhelaba llegar a la Tierra, el antiguo hogar de sus ancestros.</p>
+                        <p>Noche tras noche, Cosmo se acercaba a las antiguas ruinas de su planeta, buscando una manera de contactar con la Tierra. Recordaba leyendas sobre su conexión ancestral con los terrícolas y anhelaba reavivar ese vínculo perdido.</p>
+                        <p>Un día, mientras observaba las constelaciones, una luz parpadeante llamó su atención. Era una transmisión de la Tierra. Emocionado, Cosmo se dispuso a decodificar el mensaje que revelaría el destino de su especie y su relación con los humanos.</p>
+                        <p>La transmisión mostraba a un astronauta con un mensaje de paz y amistad, extendiendo la mano a cualquier forma de vida inteligente. El corazón de Cosmo se llenó de esperanza al ver el gesto de fraternidad. La historia de los perros de Canix y la Tierra se unía de nuevo en un lazo de comprensión y amor entre dos mundos distantes pero conectados por lazos cósmicos.</p>
                     </div>
                 </div>
     
